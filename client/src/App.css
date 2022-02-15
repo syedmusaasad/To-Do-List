@@ -1,0 +1,70 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #778da9;
+  margin: -8px;
+}
+
+.header {
+  font-size: 50px;
+  font-family: Helvetica;
+  margin: 5px;
+  color: white;
+}
+
+.neat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  padding: 5px;
+  font-size: 30px;
+  border: none;
+}
+
+.add {
+  width: 65%;
+}
+
+.button-add {
+  padding: 5px;
+  background-color: #ecebed;
+}
+
+.delete {
+  width: 100%;
+  cursor: default;
+}
+
+.button-delete {
+  width: 50px;
+  position: absolute;
+  right: 0;
+  font-weight: lighter;
+}
+
+.list {
+  padding-left: 0px;
+  list-style: none;
+  width: 100%;
+}
+
+.button-add:hover {
+  cursor: pointer;
+  background-color: #aca6b0;
+}
+
+.button-delete:hover {
+  cursor: pointer;
+  background-color: red;
+}
